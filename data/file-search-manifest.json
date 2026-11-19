@@ -1,0 +1,18 @@
+{
+  "storeName": "fileSearchStores/coreyaioutpostwfmknowledge-5npgaj5ra1z3",
+  "displayName": "corey-ai-outpost-wfm-knowledge",
+  "files": {
+    "knowledge/outpost_wfm_core_framework.md": {
+      "sizeBytes": 4101,
+      "mtimeMs": 1795121691133.5774,
+      "documentName": "fileSearchStores/coreyaioutpostwfmknowledge-5npgaj5ra1z3/documents/knowledgeoutpostwfmcorefram-nhafy1pc9qfa",
+      "mimeType": "text/markdown"
+    },
+    "index.html": {
+      "sizeBytes": 1244,
+      "mtimeMs": 1795121778625.7388,
+      "documentName": "fileSearchStores/coreyaioutpostwfmknowledge-5npgaj5ra1z3/documents/indexhtml-xycuqa5klj0i",
+      "mimeType": "text/html"
+    }
+  }
+}

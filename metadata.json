@@ -1,0 +1,8 @@
+{
+  "name": "Corey_AI — Outpost WFM",
+  "description": "Workforce Management (WFM) advisory assistant by Outpost WFM powered by Gemini and File Search grounding.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

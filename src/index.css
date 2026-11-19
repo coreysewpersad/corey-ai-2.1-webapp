@@ -1,0 +1,144 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --font-sans: 'DM Sans', system-ui, -apple-system, sans-serif;
+    --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+  }
+
+  html,
+  body {
+    font-family: var(--font-sans);
+    background-color: #f8fafc;
+    color: #0f172a;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  .font-display {
+    font-family: var(--font-display);
+  }
+
+  .font-mono-tabular {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom clean markdown styling for Corey_AI responses */
+.prose-wfm {
+  font-size: 0.9375rem;
+  line-height: 1.65;
+  color: #1e293b;
+}
+
+.prose-wfm h1,
+.prose-wfm h2,
+.prose-wfm h3 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  color: #0f172a;
+  margin-top: 1.25em;
+  margin-bottom: 0.5em;
+  line-height: 1.3;
+}
+
+.prose-wfm h1 {
+  font-size: 1.25rem;
+}
+
+.prose-wfm h2 {
+  font-size: 1.075rem;
+}
+
+.prose-wfm h3 {
+  font-size: 0.975rem;
+}
+
+.prose-wfm p {
+  margin-bottom: 0.75em;
+}
+
+.prose-wfm p:last-child {
+  margin-bottom: 0;
+}
+
+.prose-wfm ul,
+.prose-wfm ol {
+  margin: 0.5em 0 0.85em 1.25em;
+  padding: 0;
+}
+
+.prose-wfm ul {
+  list-style-type: disc;
+}
+
+.prose-wfm ol {
+  list-style-type: decimal;
+}
+
+.prose-wfm li {
+  margin-bottom: 0.35em;
+}
+
+.prose-wfm strong {
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.prose-wfm code {
+  font-family: var(--font-mono);
+  font-size: 0.85em;
+  background-color: #f1f5f9;
+  color: #0f172a;
+  padding: 0.15em 0.35em;
+  border-radius: 4px;
+}
+
+.prose-wfm pre {
+  background-color: #0f172a;
+  color: #f8fafc;
+  padding: 0.875rem 1rem;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+  margin: 0.75em 0;
+  font-family: var(--font-mono);
+  font-size: 0.8125rem;
+}
+
+.prose-wfm pre code {
+  background-color: transparent;
+  color: inherit;
+  padding: 0;
+}
+
+.prose-wfm table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.85em 0;
+  font-size: 0.875rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.prose-wfm th {
+  text-align: left;
+  font-weight: 600;
+  color: #0f172a;
+  background-color: #f1f5f9;
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid #cbd5e1;
+}
+
+.prose-wfm td {
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid #e2e8f0;
+}
